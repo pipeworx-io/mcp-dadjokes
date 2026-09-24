@@ -1,18 +1,32 @@
 {
   "name": "@pipeworx/mcp-dadjokes",
-  "version": "1.0.0",
-  "description": "MCP server for random dad jokes via icanhazdadjoke.com",
+  "version": "1.0.1",
+  "description": "Dad Jokes MCP — wraps icanhazdadjoke.com (free, no auth)",
+  "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["src"],
+  "bin": {
+    "mcp-dadjokes": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dadjokes"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-dadjokes.git"
+  },
   "scripts": {
-    "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dadjokes", "jokes", "humor"],
-  "author": "Pipeworx <hello@pipeworx.io>",
-  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ef9cddfb34e57e2441ca101f6a4a6474928978dbaa652e91492427d1d9594308",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
