@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dadjokes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dad Jokes MCP — wraps icanhazdadjoke.com (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ef9cddfb34e57e2441ca101f6a4a6474928978dbaa652e91492427d1d9594308",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-6695230ac72686c42dbd407b5db349b742b46e581d2a072035b1d604fbffa389",
+    "sourceCommit": "5b29c2b0c11e1fcd954969a245b474e6e9475116"
   }
 }
