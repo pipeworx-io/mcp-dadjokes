@@ -10,7 +10,7 @@ import pack from './index.js';
 
 
 const server = new Server(
-  { name: '@pipeworx/mcp-dadjokes', version: '1.0.3' },
+  { name: '@pipeworx/mcp-dadjokes', version: '1.0.4' },
   { capabilities: { tools: {} } },
 );
 
