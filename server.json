@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/dadjokes",
   "title": "Dadjokes",
   "description": "Dad Jokes MCP — wraps icanhazdadjoke.com (free, no auth)",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "websiteUrl": "https://pipeworx.io/packs/dadjokes",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-dadjokes",
