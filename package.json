@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-dadjokes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Dad Jokes MCP — wraps icanhazdadjoke.com (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "dadjokes",
     "gatewaySlug": "dadjokes",
-    "sourceHash": "v1-0976ac486956a13022fed4f34e9a4ec19d85cee686ae5b3bcbd859df20772299",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-395c364295cdb538cfa8f25742fc4bced37da8cab7f97a66e6e849eeae5de8ea",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
